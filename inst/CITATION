@@ -1,0 +1,29 @@
+citHeader("Citation of related methods in rfBLT:")
+
+bibentry(
+  bibtype = "Misc",
+  title   = "High-Dimensional Bayesian Regularised Regression with the Bayesreg Package",
+  author  = c(
+    person("Enes", "Makalic"),
+    person("Daniel", "Schmidt")
+  ),
+  note    = "arXiv:1611.06649",
+  year    = "2016"
+)
+
+bibentry(
+  bibtype = "Article",
+  title   = "Regularization Paths for Generalized Linear Models via  Coordinate Descent",
+  author  = c(
+    person("Jerome", "Friedman"),
+    person("Trevor", "Hastie"),
+    person("Robert", "Tibshirani")
+  ),
+  journal = "Journal of Statistical Software",
+  year    = "2010",
+  volume  = "33",
+  number  = "1",
+  pages   = "1--22",
+  doi     = "10.18637/jss.v033.i01"
+)
+
