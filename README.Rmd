@@ -13,12 +13,12 @@ knitr::opts_chunk$set(
 )
 ```
 
-# rfBLT
+# rfBLT: Random Feature Bayesian Lasso Takens
 
 <!-- badges: start -->
 <!-- badges: end -->
 
-An R package for implementing Regularized and Sparse Random Feature Models with support for time-delay embedding, within both Frequentist and Bayesian frameworks. Currently, only Gaussian error models are supported. In the Frequentist setting, lasso, ridge, and elastic net regularization are available, while the Bayesian setting provides shrinkage priors for lasso and ridge. Recursive prediction is implemented for time series forecasting. The package also supports cross-sectional data and time series prediction using lagged features, without invoking Takens’ theorem, through standard Sparse Random Feature Models.
+An R package for implementing Regularized or Sparse Random Feature Models integrating with Time Delay Embedding Theorem, within both Frequentist and Bayesian frameworks. Currently, only Gaussian error models are supported. In the Frequentist setting, lasso, ridge, and elastic net regularization are available, while the Bayesian setting provides shrinkage priors for lasso and ridge. Recursive prediction is implemented for time series forecasting. The package also supports cross-sectional data and time series prediction using lagged features, without Takens’ theorem, through standard Sparse Random Feature Models.
 
 ## Installation
 
@@ -37,7 +37,7 @@ library(rfBLT)
 
 ## Example
 
-The following example illustrates how to fit and forecast time series values using the Sparse Random Feature Model for the Time Delay Embedding Theorem, within both Bayesian and Frequentist approaches.
+The following example illustrates how to fit and forecast time series values using the Sparse Random Feature Model using Takens' Theorem, within both Bayesian and Frequentist approaches.
 
 ```{r example, eval=FALSE}
 # Generate data
