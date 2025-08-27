@@ -3,8 +3,10 @@ Title: Random Feature Bayesian Lasso Taken
 Version: 0.0.0.9000
 Authors@R: 
     person("Thu", "Nguyen", email = "thu.nguyen@dal.ca", role = c("aut", "cre"))
-Description: An R package for integrating Random Feature Models with Regularization techniques in both Frequentist and Bayesian frameworks. 
-    The package can be used for both time series data and cross-sectional data.
+Description: 
+    An R package for integrating Random Feature Models with Regularization techniques 
+    in both Frequentist and Bayesian frameworks. The package can be used for both 
+    time series data and cross-sectional data.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
