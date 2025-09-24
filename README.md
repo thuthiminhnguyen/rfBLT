@@ -17,6 +17,9 @@ implemented for time series forecasting. The package also supports
 cross-sectional data and time series prediction using lagged features,
 without Takens’ theorem, through standard Sparse Random Feature Models.
 
+For a detailed guide on using rfBLT, see the
+[vignette](vignettes/rfBLT_guide.html).
+
 ## Installation
 
 You can install the development version of rfBLT from
@@ -142,6 +145,13 @@ fit_freq_reg_rfm_taken$y_pred
 # Confidence interval
 fit_freq_reg_rfm_taken$pred.ci
 ```
+
+## Numerical experiments
+
+For detailed examples and performance evaluations on real datasets
+including COVID-19 data in Canada, and the S&P500 index, please refer to
+our repository
+[link](https://github.com/thuthiminhnguyen/rfBLT-numerical-experiments).
 
 ## References
 
