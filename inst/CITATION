@@ -7,8 +7,9 @@ bibentry(
     person("Enes", "Makalic"),
     person("Daniel", "Schmidt")
   ),
-  note    = "arXiv:1611.06649",
-  year    = "2016"
+  journal = "arXiv preprint arXiv:1611.06649",
+  year    = "2016",
+  url = "https://arxiv.org/abs/1611.06649"
 )
 
 bibentry(
@@ -27,3 +28,14 @@ bibentry(
   doi     = "10.18637/jss.v033.i01"
 )
 
+bibentry(
+  bibtype = "Misc",
+  title   = "rfBLT: Random Feature Bayesian Lasso Takens Model for Time Series Forecasting",
+  author  = c(
+    person("Thu", "Nguyen"),
+    person("Lam Si Tung", "Ho")
+  ),
+  year    = "2025",
+  journal = "arXiv preprint arXiv:2511.08957",
+  url     = "https://arxiv.org/abs/2511.08957"
+)

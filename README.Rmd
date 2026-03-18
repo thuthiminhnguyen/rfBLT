@@ -20,7 +20,7 @@ knitr::opts_chunk$set(
 
 An R package for implementing Regularized or Sparse Random Feature Models integrating with Time Delay Embedding Theorem, within both Frequentist and Bayesian frameworks. Currently, only Gaussian error models are supported. In the Frequentist setting, lasso, ridge, and elastic net regularization are available, while the Bayesian setting provides shrinkage priors for lasso and ridge. Recursive prediction is implemented for time series forecasting. The package also supports cross-sectional data and time series prediction using lagged features, without Takens’ theorem, through standard Sparse Random Feature Models.
 
-For a detailed guide on using rfBLT, see the [vignette](vignettes/rfBLT_guide.html).
+<!--For a detailed guide on using rfBLT, see the [vignette](vignettes/rfBLT_guide.html).-->
 
 ## Installation
 
@@ -142,5 +142,7 @@ Canada, and the S&P500 index, please refer to our repository [link](https://gith
 ## References
 
 ```{r citation_text, results='asis', echo=FALSE}
-format(citation("rfBLT"), style = "text")
+# format(citation("rfBLT"), style = "text")
+cit <- readCitationFile("inst/CITATION") 
+cat(format(cit, style = "text"), sep = "\n\n")
 ```

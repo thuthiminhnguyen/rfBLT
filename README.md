@@ -17,6 +17,8 @@ implemented for time series forecasting. The package also supports
 cross-sectional data and time series prediction using lagged features,
 without Takens’ theorem, through standard Sparse Random Feature Models.
 
+<!--For a detailed guide on using rfBLT, see the [vignette](vignettes/rfBLT_guide.html).-->
+
 ## Installation
 
 You can install the development version of rfBLT from
@@ -152,9 +154,14 @@ our repository
 
 ## References
 
-\[1\] “Makalic E, Schmidt D (2016). "High-Dimensional Bayesian
-Regularisedwith the Bayesreg Package." arXiv:1611.06649.”  
-\[2\] “Friedman J, Hastie T, Tibshirani R (2010). "Regularization Paths
-forLinear Models via Coordinate Descent." *Journal ofSoftware*, *33*(1),
-1-22. <a href="doi:10.18637/jss.v033.i01\n"
-class="uri">doi:10.18637/jss.v033.i01\n</a><https://doi.org/10.18637/jss.v033.i01>.”
+Makalic E, Schmidt D (2016). “High-Dimensional Bayesian Regularised
+Regression with the Bayesreg Package.”
+<https://arxiv.org/abs/1611.06649>.
+
+Friedman J, Hastie T, Tibshirani R (2010). “Regularization Paths for
+Generalized Linear Models via Coordinate Descent.” *Journal of
+Statistical Software*, *33*(1), 1-22. <doi:10.18637/jss.v033.i01>
+<https://doi.org/10.18637/jss.v033.i01>.
+
+Nguyen T, Ho L (2025). “rfBLT: Random Feature Bayesian Lasso Takens
+Model for Time Series Forecasting.” <https://arxiv.org/abs/2511.08957>.
