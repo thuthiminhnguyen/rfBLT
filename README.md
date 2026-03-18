@@ -17,9 +17,6 @@ implemented for time series forecasting. The package also supports
 cross-sectional data and time series prediction using lagged features,
 without Takens’ theorem, through standard Sparse Random Feature Models.
 
-For a detailed guide on using rfBLT, see the
-[vignette](vignettes/rfBLT_guide.html).
-
 ## Installation
 
 You can install the development version of rfBLT from
